@@ -11,6 +11,7 @@
 
     <artifactId>generic</artifactId>
 
+    <dependencyManagement>
     <dependencies>
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
@@ -49,6 +50,6 @@
             <artifactId>extentreports</artifactId>
         </dependency>
     </dependencies>
-
+    </dependencyManagement>
 
 </project>

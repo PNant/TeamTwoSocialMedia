@@ -8,12 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Amazon" />
         <module name="Chase" />
+        <module name="FacebookTesting" />
         <module name="Generic" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Amazon" target="1.5" />
       <module name="Chase" target="1.5" />
+      <module name="FacebookTesting" target="1.5" />
       <module name="Generic" target="1.5" />
       <module name="TeamTwo" target="1.5" />
     </bytecodeTargetLevel>

@@ -165,6 +165,12 @@ public class CommonAPI {
         driver.quit();
     }
 
+    public void LaunchFB(){
+        driver.get("https://www.facebook.com");
+        driver.manage().window().maximize();
+    }
+
+
     public void clickOnCss(String locator){
         driver.findElement(By.cssSelector(locator)).click();
     }
